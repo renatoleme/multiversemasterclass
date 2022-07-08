@@ -101,6 +101,10 @@ h4 {
     /* set the margin bottom to 0.5em */
 }
 
+.mobile {
+    display: none;
+}
+
 @keyframes spin {
     from {
         transform:rotate(0deg);
@@ -111,7 +115,7 @@ h4 {
 }
 
 .escher {
-    height: 65vh;
+    height: 60vh;
 
     /* make a circular shadow around elements */
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.2), 0 32px 64px rgba(0, 0, 0, 0.2);
@@ -141,7 +145,7 @@ header {
         display: flex;
         flex-direction: column;
         overflow: auto;
-        justify-content: center;
+        justify-content: normal;
     }
 
     .right {
@@ -163,6 +167,14 @@ header {
 @media screen and (max-width: 1200px) {
     .right {
         display: none;
+    }
+
+    .escher {
+        height: 200px;
+    }
+
+    .mobile {
+        display: block;
     }
 
     .left {
