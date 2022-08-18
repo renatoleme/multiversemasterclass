@@ -101,6 +101,8 @@ h4 {
     /* set the margin bottom to 0.5em */
 }
 
+
+
 .mobile {
     display: none;
 }
@@ -129,6 +131,11 @@ h4 {
 
     background-color: #111;
 
+}
+
+.program {
+    margin: 8px;
+    padding: 8px;
 }
 
 .abstracts {
