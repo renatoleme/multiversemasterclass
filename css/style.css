@@ -27,7 +27,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     /* set the font smoothing to grayscale */
 
-
+    
 
 }
 
@@ -131,10 +131,33 @@ h4 {
 
 }
 
+.abstracts {
+    padding: 8px;
+    margin: 8px;
+}
+
+.fa:hover {
+    color: red;
+}
+
+.abs {
+    border: #111 1px solid;
+    padding: 8px;
+    text-align: justify;
+    width: 100%;
+    margin: 4px;
+}
+
+.menu {
+    margin: 16px;
+    font-size: large;
+}
+
 header {
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.3em;}
+    font-size: 1.3em;
+}
 
 /* static page divided in two columns centered */
 
